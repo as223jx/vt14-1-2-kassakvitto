@@ -13,5 +13,13 @@ namespace Kassakvitto
         {
             TextBox.Focus();
         }
+
+        protected void Calculate_Click(object sender, EventArgs e)
+        {
+            if (IsValid)
+            {
+                //hujio
+            }
+        }
     }
 }
